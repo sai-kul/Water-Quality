@@ -46,5 +46,6 @@ The accuracy of these models is depicted in the table and bar graph.
 ![results graph](https://github.com/sai-kul/Water-Quality/assets/164490846/e4259cd7-544e-4183-bccd-3a8ec2c9f602)
 
 Conclusion:
+
 We have tested our models on a very small dataset of about 3300 data points so there is scope to improve our models.
 We can also use deep learning methods and neural networks to see improved performance in our models. Also, we have predicted the potability of water using only 9 parameters but we should also try to incorporate more parameters to get more accurate real-time results.
