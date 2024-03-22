@@ -1,11 +1,11 @@
 # Water-Quality
-Introduction :
+**Introduction**:
 
 Water is one of the most crucial resources for most living creatures, including humans, and vital in sustaining life. We drink water daily to survive, so it is of utmost importance to ensure that the water we consume is potable. Most impurities have a certain limit till they are safe to consume, exceeding these limits will cause a threat to life and negatively impact it. Several methods are used to gauge water quality from rivers, lakes, and oceans.
 There are also other different applications for which we need to gauge the quality of water - in the pharmaceutical industry, we need the utmost purity of water; for agriculture and industry, we need water that is not too salty, free of toxins that shouldn't damage the crops and soil and not damage the environment.
 We will be using various Machine Learning algorithms to predict the water quality based on the parameters provided. The algorithms used in this project are Logistic Regression, K-Nearest Neighbours, Decision Tree, and Support Vector Machine (SVM).
 
-About the dataset:
+**About the dataset**:
 
 Source https://www.kaggle.com/datasets/adityakadiwal/water-potability
 
@@ -13,7 +13,7 @@ Number of data points 3275
 
 Number of parameters 10
 
-About the parameters:
+**About the parameters**:
 
 1. pH: The pH of water determines whether water is acidic or alkaline. A pH value of 7 is an ideal case as extreme pH values affect the taste of water and might indicate the presence of harmful substances. 
 2. Hardness: Hardness is the measure of calcium and magnesium salts in the water sample.
@@ -26,7 +26,7 @@ About the parameters:
 9. Turbidity: The turbidity of water depends on the quantity of solid matter present in the suspended state. It is a measure of the light-emitting properties of water.
 10. Potability: It indicates whether the water is safe to drink.
 
-Experiments:
+**Experiments**:
 
 We tested 7 water samples which were available around our college. We could only test the water on 4 of the 9 input parameters due to the unavailability of equipment so we tested the samples on pH, conductivity, turbidity, and hardness.
 These are the results we obtained.
@@ -36,7 +36,7 @@ The hardness of water was measured in terms of the volume of EDTA required to ch
 The conductivity of water was measured in units μS.
 The turbidity of water was measured in units NTU.
 
-Modeling:
+**Modeling**:
 
 We used 5 machine learning models - Logistic Regression, Decision Tree, Random Forest, KNN, and SVM.
 The accuracy of these models is depicted in the table and bar graph.
@@ -45,7 +45,7 @@ The accuracy of these models is depicted in the table and bar graph.
 
 ![results graph](https://github.com/sai-kul/Water-Quality/assets/164490846/e4259cd7-544e-4183-bccd-3a8ec2c9f602)
 
-Conclusion:
+**Conclusion**:
 
 We have tested our models on a very small dataset of about 3300 data points so there is scope to improve our models.
 We can also use deep learning methods and neural networks to see improved performance in our models. Also, we have predicted the potability of water using only 9 parameters but we should also try to incorporate more parameters to get more accurate real-time results.
