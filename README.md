@@ -8,7 +8,9 @@ We will be using various Machine Learning algorithms to predict the water qualit
 About the dataset:
 
 Source https://www.kaggle.com/datasets/adityakadiwal/water-potability
+
 Number of data points 3275
+
 Number of parameters 10
 
 About the parameters:
