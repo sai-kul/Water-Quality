@@ -1,18 +1,18 @@
 # Water-Quality
 Introduction :
 
-Water is one of the most crucial resources for most living creatures, including humans, and vital in sustaining life. We drink water every day to survive and so it is of utmost importance to ensure that the water we consume is potable or not. Most impurities have a certain limit till they are safe to consume, exceeding these limits will cause a threat to life and negatively impact it. Several methods are used to gauge the quality of water from rivers, lakes, and oceans.
+Water is one of the most crucial resources for most living creatures, including humans, and vital in sustaining life. We drink water daily to survive, so it is of utmost importance to ensure that the water we consume is potable. Most impurities have a certain limit till they are safe to consume, exceeding these limits will cause a threat to life and negatively impact it. Several methods are used to gauge water quality from rivers, lakes, and oceans.
 There are also other different applications for which we need to gauge the quality of water - in the pharmaceutical industry, we need the utmost purity of water; for agriculture and industry, we need water that is not too salty, free of toxins that shouldn't damage the crops and soil and not damage the environment.
-We will be using various Machine Learning algorithms to predict the water quality based on the parameters provided. The algorithms used in this project are: Logistic Regression, K-Nearest Neighbours, Decision Tree, Support Vector Machine (SVM).
+We will be using various Machine Learning algorithms to predict the water quality based on the parameters provided. The algorithms used in this project are Logistic Regression, K-Nearest Neighbours, Decision Tree, and Support Vector Machine (SVM).
 
 About the parameters:
-1. pH: The pH of water determines whether water is acidic or alkaline. A pH value of 7 is an ideal case as extreme pH values affect the taste of water and might indicate the presence of harmful substances. Extreme values of pH also corrode metal pipes and these metals are toxic to humans. Some micro-organisms need certain environments to thrive, and the pH value of water might sustain the micro-organisms.
-2. Hardness: Hardness is the measure of calcium and magnesium salts in the water sample. These salts are dissolved from geologic deposits through which water travels. Excessive salts may cause the formation of scales in pipes and appliances, making it unsafe for drinking.
-3. Total dissolved salts: High levels of TDS in water affect its taste, quality, and odor. Water samples with high TDS may taste salty and brackish making it unsuitable for consumption. Also, many salts when dissolved at low concentrations in water are harmless, at high concentrations, they become dangerous.
+1. pH: The pH of water determines whether water is acidic or alkaline. A pH value of 7 is an ideal case as extreme pH values affect the taste of water and might indicate the presence of harmful substances. 
+2. Hardness: Hardness is the measure of calcium and magnesium salts in the water sample.
+3. Total dissolved salts: High levels of TDS in water affect its taste, quality, and odor. Water samples with high TDS may taste salty and brackish making it unsuitable for consumption.
 4. Chloramines: Chloramines and chlorides are used as disinfectants to purify water in public water systems. Chloramines are formed when chlorides react with ammonia. A value of 4 ppm of chloramines is safe for drinking water.
 5. Sulfates: Sulfates are naturally occurring substances that are found in minerals, soil, and rocks. Samples with high sulfate content have a noticeably different odor and taste - bitter and rotten egg smell. High values of sulfates have adverse health effects on humans.
-6. Conductivity: Pure water is a bad conductor of water due to the absence of ions. An increase in the ions in water enhances the electrical conductivity of water. The electrical conductivity of water should not exceed 400 μS/cm.
-7. Organic Carbon: TOC is a measure of the total amount of carbon in organic compounds in pure water. It comes in water by decaying organic matter and synthetic matter in water. The value should not exceed 2 mg/L in drinking water.
-8. Trihalomethanes: They are chemicals found in water when it is treated with chlorides. The concentrations of trihalomethanes vary with the level of organic matter in water, the amount of chlorine, and the temperature of water. A value of up to 50 ppm is considered safe for water.
-9. Turbidity: The turbidity of water depends on the quantity of solid matter present in the suspended state. It is a measure of light emitting properties of water and the test is used to indicate the quality of waste discharge concerning colloidal matter.
+6. Conductivity: Pure water is a bad conductor of water due to the absence of ions. An increase in the ions in water enhances the electrical conductivity of water.
+7. Organic Carbon: TOC is a measure of the total amount of carbon in organic compounds in pure water. It comes in water by decaying organic matter and synthetic matter in water.
+8. Trihalomethanes: They are chemicals found in water when it is treated with chlorides. The concentrations of trihalomethanes vary with the level of organic matter in water, the amount of chlorine.
+9. Turbidity: The turbidity of water depends on the quantity of solid matter present in the suspended state. It is a measure of the light-emitting properties of water.
 10. Potability: It indicates whether the water is safe to drink.
