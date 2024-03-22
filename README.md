@@ -6,11 +6,13 @@ There are also other different applications for which we need to gauge the quali
 We will be using various Machine Learning algorithms to predict the water quality based on the parameters provided. The algorithms used in this project are Logistic Regression, K-Nearest Neighbours, Decision Tree, and Support Vector Machine (SVM).
 
 About the dataset:
+
 Source https://www.kaggle.com/datasets/adityakadiwal/water-potability
 Number of data points 3275
 Number of parameters 10
 
 About the parameters:
+
 1. pH: The pH of water determines whether water is acidic or alkaline. A pH value of 7 is an ideal case as extreme pH values affect the taste of water and might indicate the presence of harmful substances. 
 2. Hardness: Hardness is the measure of calcium and magnesium salts in the water sample.
 3. Total dissolved salts: High levels of TDS in water affect its taste, quality, and odor. Water samples with high TDS may taste salty and brackish making it unsuitable for consumption.
@@ -23,6 +25,7 @@ About the parameters:
 10. Potability: It indicates whether the water is safe to drink.
 
 Experiments:
+
 We tested 7 water samples which were available around our college. We could only test the water on 4 of the 9 input parameters due to the unavailability of equipment so we tested the samples on pH, conductivity, turbidity, and hardness.
 These are the results we obtained.
 ![Experiments in the lab](https://github.com/sai-kul/Water-Quality/assets/164490846/e3068b50-bdf2-4733-9c5d-2d1f062ab625)
@@ -32,6 +35,7 @@ The conductivity of water was measured in units μS.
 The turbidity of water was measured in units NTU.
 
 Modeling:
+
 We used 5 machine learning models - Logistic Regression, Decision Tree, Random Forest, KNN, and SVM.
 The accuracy of these models is depicted in the table and bar graph.
 
