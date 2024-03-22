@@ -25,3 +25,4 @@ About the parameters:
 Experiments:
 We tested 7 water samples which were available around our college. We could only test the water on 4 of the 9 input parameters due to the unavailability of equipment so we tested the samples on pH, conductivity, turbidity, and hardness.
 These are the results we obtained.
+![Experiments in the lab](https://github.com/sai-kul/Water-Quality/assets/164490846/e3068b50-bdf2-4733-9c5d-2d1f062ab625)
