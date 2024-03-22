@@ -5,6 +5,11 @@ Water is one of the most crucial resources for most living creatures, including 
 There are also other different applications for which we need to gauge the quality of water - in the pharmaceutical industry, we need the utmost purity of water; for agriculture and industry, we need water that is not too salty, free of toxins that shouldn't damage the crops and soil and not damage the environment.
 We will be using various Machine Learning algorithms to predict the water quality based on the parameters provided. The algorithms used in this project are Logistic Regression, K-Nearest Neighbours, Decision Tree, and Support Vector Machine (SVM).
 
+About the dataset:
+Source: https://www.kaggle.com/datasets/adityakadiwal/water-potability
+Number of datapoints: 3275
+Number of parameters: 10
+
 About the parameters:
 1. pH: The pH of water determines whether water is acidic or alkaline. A pH value of 7 is an ideal case as extreme pH values affect the taste of water and might indicate the presence of harmful substances. 
 2. Hardness: Hardness is the measure of calcium and magnesium salts in the water sample.
@@ -13,6 +18,10 @@ About the parameters:
 5. Sulfates: Sulfates are naturally occurring substances that are found in minerals, soil, and rocks. Samples with high sulfate content have a noticeably different odor and taste - bitter and rotten egg smell. High values of sulfates have adverse health effects on humans.
 6. Conductivity: Pure water is a bad conductor of water due to the absence of ions. An increase in the ions in water enhances the electrical conductivity of water.
 7. Organic Carbon: TOC is a measure of the total amount of carbon in organic compounds in pure water. It comes in water by decaying organic matter and synthetic matter in water.
-8. Trihalomethanes: They are chemicals found in water when it is treated with chlorides. The concentrations of trihalomethanes vary with the level of organic matter in water, the amount of chlorine.
+8. Trihalomethanes: They are chemicals found in water when it is treated with chlorides. The concentrations of trihalomethanes vary with the level of organic matter in water, and the amount of chlorine.
 9. Turbidity: The turbidity of water depends on the quantity of solid matter present in the suspended state. It is a measure of the light-emitting properties of water.
 10. Potability: It indicates whether the water is safe to drink.
+
+Experiments:
+We tested 7 water samples which were available around our college. We could only test the water on 4 of the 9 input parameters due to the unavailability of equipment so we tested the samples on pH, conductivity, turbidity, and hardness.
+These are the results we obtained.
