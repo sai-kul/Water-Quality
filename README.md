@@ -26,3 +26,15 @@ Experiments:
 We tested 7 water samples which were available around our college. We could only test the water on 4 of the 9 input parameters due to the unavailability of equipment so we tested the samples on pH, conductivity, turbidity, and hardness.
 These are the results we obtained.
 ![Experiments in the lab](https://github.com/sai-kul/Water-Quality/assets/164490846/e3068b50-bdf2-4733-9c5d-2d1f062ab625)
+The hardness of water was measured in terms of the volume of EDTA required to change the color of the solution of wine red. The solution consisted of 50 mL of water sample, 3 mL of buffer solution, and 2-3 drops of indicator.
+The conductivity of water was measured in units μS.
+The turbidity of water was measured in units NTU.
+
+Modelling:
+We used 5 machine learning models - Logistic Regression, Decision Tree, Random Forest, KNN, and SVM. The accuracy of these models is depicted in the table and bar graph.
+![results](https://github.com/sai-kul/Water-Quality/assets/164490846/9594c029-7495-42c6-b58a-099f245ba6dd)
+![results graph](https://github.com/sai-kul/Water-Quality/assets/164490846/e4259cd7-544e-4183-bccd-3a8ec2c9f602)
+
+Conclusion:
+We have tested our models on a very small dataset of about 3300 data points so there is scope to improve our models.
+We can also try to use deep learning methods and neural networks to see improved performance in our models. Also, we have predicted the potability of water using only 9 parameters but we should also try to incorporate more parameters to get more accurate real-time results.
